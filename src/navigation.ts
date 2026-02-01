@@ -1,87 +1,52 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import Week2 from 'src/pages/homes/week2.md';
+import week2research from 'src/pages/landing/week2research.md';
 
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Weekly Status Updates',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Week 2',
+          href: getPermalink('homes/personal'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Week 3',
+          href: getPermalink('/homes/week3'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Week 4',
+          href: getPermalink('/homes/week4'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Week 5',
+          href: getPermalink('/homes/week5'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Research Updates',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'GitHub and GitLab',
+          href: getPermalink('/landing/week2research'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
+          text: 'CI/CD Pipelines',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Configuration Files',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Flake8',
           href: getPermalink('/landing/product'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
+          text: 'cppcheck/cpplint',
           href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
         },
       ],
     },

@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: "Rachael's Progessional Development Website",
   ignoreTitleTemplate: true,
 };
 ---
@@ -22,87 +22,104 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/arthelokyo/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
-    ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white"> Astro 5.0</span> + Tailwind CSS
+      Rachael's <span class="hidden xl:inline"></span>
+      <span class="text-accent dark:text-white"> Professional Development</span> Website
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
-        + Tailwind CSS.</span
+        Scroll down to read the research proposal for the Spring 2026 Professional Development project! Use the tabs at the top of the page to find weekly updates.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <Note title="Goals:" description="To improve software development skills, especially related to code cleanup and CI/CD Pipelines." />
 
   <!-- Features Widget *************** -->
 
   <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023 and 2024."
+    id="proposal"
+    tagline="Research Proposal"
+    title="Code Cleanup and CI/CD Pipelines using VS Code and GitLab"
+    subtitle="The following outlines the project I am completing for the CSPB Professional Development Class:"
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Vision Statement',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+          'This project will expand my professional skills and knowledge by giving me more experience with software development tools and frameworks, particularly for code cleanup, including VS Code, Flake8, cppcheck, cpplint, and GitLab.',
+        icon: 'tabler:bulb',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Motivation',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'This project is important to me because I am currently involved in a lot of software development in a current software engineering internship, and would like to work on a project that gives me more practice with this topic.',
+        icon: 'tabler:brightness-up',
       },
       {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+        title: 'Specific and measurable goals (learning objectives) for the projectes',
+        description: `
+        <ul class="list-disc pl-4 space-y-1">
+          <li><strong>Week 1:</strong> Introduction to project expectations</li>
+          <li><strong>Week 2:</strong> Select project topic and complete research proposal</li>
+          <li><strong>Week 3:</strong> Select files to be cleaned up (Python and C++), test out Flake8 and cppcheck/cpplint</li>
+          <li><strong>Week 4:</strong> Research CI/CD Pipelines and begin configuration file, peer review</li>
+          <li><strong>Week 5:</strong> Read peer review and revise project as needed, complete personal website</li>
+          <li><strong>Week 6:</strong> Complete configuration files</li>
+          <li><strong>Week 7:</strong> Project Update Report</li>
+          <li><strong>Week 8:</strong> Use Flake8 to edit Python files and successfully go through Pipeline</li>
+          <li><strong>Week 9:</strong> Access Lifelong Learning Resources</li>
+          <li><strong>Week 10:</strong> Use cppcheck/cpplint to edit C/C++ files and successfully go through Pipeline</li>
+          <li><strong>Week 11-13:</strong> Final Project Report</li>
+         </ul>
+         `
+         ,
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Risks to project completion, possibly including:',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'I have not yet taken the Software Development Methods and Tools course in the CSPB program, which would likely have provided even more knowledge leading into this project. Time constraints also mean I will need to be strategic in planning out my work.',
+        icon: 'tabler:alert-circle',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Mitigation strategy for the risks listed above',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+          "I am learning a lot about software development in my internship, which should help support my ability to complete tasks for this project as the semester progresses. Additionally, I have a lot of experience in VS code, which will help streamline a lot of the work I plan on doing. In order to address time constraints, each week I will use an agenda to plan day-by-day the specific tasks that need to be completed in order to stay on track.",
+        icon: 'tabler:circle-check',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Project Assessments: List of evaluation criteria for my project',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          `
+        <ul class="list-disc pl-4 space-y-1">
+          <li><strong>Website:</strong> A completed website that includes all components of the project.</li>
+          <li><strong>Weekly Posts:</strong> Weekly status updates and research findingsl</li>
+          <li><strong>Research Proposal:</strong> A completed research proposal, posted to Piazza and on the website. Complete peer review.</li>
+          <li><strong>Code Cleanup:</strong> A portfolio of edited files that underwent a coding cleanup process (before and after)</li>
+          <li><strong>CI/CD Pipeline:</strong> Configuration files I create that demonstrate the establishment of a CI/CD Pipeline in GitLab</li>
+          <li><strong>Final Research Report</strong>
+         </ul>
+         `
+         ,
+        icon: 'tabler:clipboard-check',
       },
+      {
+        title: 'Project Portfolio Link',
+        description:
+        "I started with a GitHub Personal Page (ragl8391.github.io), but I am experimenting with an AstroWind Template which is free and publicly available on GitHub. After importing the template on VS Code, I have this site so far (some of the default information still needs to be replaced).",
+        icon: 'tabler:world-check'
+      }
     ]}
   />
 
   <!-- Content Widget **************** -->
-
+{
+  /*
   <Content
     isReversed
     tagline="Inside template"
@@ -217,7 +234,7 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="AstroWind Websites"
     items={[
       {
         title: 'Step 1: <span class="font-medium">Download</span>',
@@ -397,3 +414,6 @@ const metadata = {
     </Fragment>
   </CallToAction>
 </Layout>
+
+  */
+}
