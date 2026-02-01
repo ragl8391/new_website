@@ -13,15 +13,12 @@ export const headerData = {
         },
         {
           text: 'Week 3',
-          href: getPermalink('/homes/week3'),
         },
         {
           text: 'Week 4',
-          href: getPermalink('/homes/week4'),
         },
         {
           text: 'Week 5',
-          href: getPermalink('/homes/week5'),
         },
       ],
     },
@@ -34,50 +31,17 @@ export const headerData = {
         },
         {
           text: 'CI/CD Pipelines',
-          href: getPermalink('/landing/sales'),
         },
         {
           text: 'Configuration Files',
-          href: getPermalink('/landing/click-through'),
         },
         {
           text: 'Flake8',
-          href: getPermalink('/landing/product'),
         },
         {
           text: 'cppcheck/cpplint',
-          href: getPermalink('/landing/pre-launch'),
         },
       ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
