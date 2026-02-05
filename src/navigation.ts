@@ -9,13 +9,15 @@ export const headerData = {
       links: [
         {
           text: 'Week 2',
-          href: getPermalink('homes/personal'),
+          href: getPermalink('homes/week2'),
         },
         {
           text: 'Week 3',
+          href: getPermalink('homes/week3'),
         },
         {
           text: 'Week 4',
+          href: getPermalink('homes/week3'),
         },
         {
           text: 'Week 5',
